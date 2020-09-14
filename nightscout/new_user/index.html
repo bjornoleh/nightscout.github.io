@@ -164,6 +164,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#step-10-uptime-robot" class="nav-link">Step 10: Uptime robot</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#future-warning-for-diy-users" class="nav-link">Future warning (for DIY users)</a>
               <ul class="nav flex-column">
               </ul>
@@ -461,6 +465,15 @@ Finally, you might want to delete the <code>PAPERTRAIL_API_TOKEN</code> line. He
 <ul>
 <li>TODO: add uploader samples</li>
 </ul>
+<h2 id="step-10-uptime-robot">Step 10: Uptime robot<a class="headerlink" href="#step-10-uptime-robot" title="Permanent link">⌁</a></h2>
+<p>In order for your site to stay active 24/7, you’ll need to set up a free <a href="https://uptimerobot.com/">Uptime Robot</a> . The constant pings from this status-checking service will keep your Nightscout app awake.</p>
+<p>Create a new account, and verify it with the email you get.
+Log in, and click the + Monitor button.
+Choose HTTP(s) for the Monitor Type, pick any Friendly Name, and enter your site URL as the URL (https://your-app-name.herokuapp.com). 
+Leave the rest as-is, and click Create Monitor.</p>
+<!Source: http://www.nightscout.info/wiki/welcome/set-up-nightscout-using-heroku)
+, with only minor formating changes>
+
 <h2 id="future-warning-for-diy-users">Future warning (for DIY users)<a class="headerlink" href="#future-warning-for-diy-users" title="Permanent link">⌁</a></h2>
 <p>At some point in the future months, your Nightscout site will likely stop in some quirky way...like CGM data won't be showing is the most common. This won't affect Looping, but it might be kind of annoying if you are a parent using Nightscout for remote info. The reason? The database Heroku gives us for free has some size limitations. After several months of Looping, you'll likely fill up that free amount of space and we will need to cleanout in order to make room.</p>
 <p>So...keep it in your head that if you see something odd with your NS site (like no CGM even though Dexcom is working), then please check <a href="https://loopkit.github.io/loopdocs/nightscout/mlab_cleanup/">this page to learn how you can cleanout the database</a>. It is easy and fast...no worries.</p></div>
