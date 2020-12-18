@@ -437,7 +437,7 @@ Loopers might experience Nightscout taking an extremely long time or even timing
 
 Two solutions are available:
 
-1. Follow this video (set it full screen in 720p) to selectively delete profiles [https://www.youtube.com/watch?v=iipp0MfPKNQ](https://www.youtube.com/watch?v=iipp0MfPKNQ)
+1. Follow this video (set it full screen in 720p) to selectively delete profiles [https://youtu.be/iipp0MfPKNQ](https://youtu.be/iipp0MfPKNQ)
 2. Delete all profiles in Atlas
 
 Log in to Atlas [https://account.mongodb.com/account/login](https://account.mongodb.com/account/login)
